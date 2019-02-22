@@ -244,7 +244,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(203, 26, 33, 0.9);
+  background: rgba(203, 26, 33, 0.91);
 }
 
 #faq .faq-item .faq-link .faq-hover:hover {
