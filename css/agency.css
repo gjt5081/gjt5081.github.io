@@ -217,6 +217,8 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+
+
 .feature-heading {
   margin: 15px 0;
   text-transform: none;
@@ -242,7 +244,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(203, 26, 33, 0.9);
 }
 
 #faq .faq-item .faq-link .faq-hover:hover {
@@ -444,7 +446,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #cb1a21;
 }
 
 .timeline > li .timeline-image h4 {
