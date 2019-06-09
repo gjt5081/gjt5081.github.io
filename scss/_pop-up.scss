@@ -1,0 +1,81 @@
+@keyframes pop {
+	0% {
+		height: 0%;
+	}
+	50% {
+		height: 0%;
+	}
+	100% {
+		height: 100%;
+	}
+}
+
+@keyframes show-text {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.pop-up {
+	animation: pop 0.8s ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	height: 0;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	z-index: 30;
+	.content {
+		align-self: center;
+		background-color: white;
+		padding: 100px;
+		width: 500px; 
+		p {
+			.text;
+			animation: show-text 1s ease 3.3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			font-family: Lobster, serif;
+			font-size: 50px;
+			opacity: 0;
+			text-align: center;
+		}
+	}
+}
+
+/* POP UP close button */
+
+input[type="checkbox"] {
+	display: none;
+}
+
+label {
+	animation: show-text 0.8s ease 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	color: white;
+	cursor: pointer;
+  font-size: 24px;
+	right: 30px;
+	opacity: 0;
+	position: fixed;
+	top: 20px;
+	z-index: 40;
+}
+
+input[type="checkbox"]:checked ~ div.pop-up {
+	display: none;
+}
+
+input[type="checkbox"]:checked ~ label {
+	display: none;
+}
