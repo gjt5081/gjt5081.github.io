@@ -166,8 +166,8 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
     ),url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
